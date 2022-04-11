@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Bus Ticket Booking</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="seats">
+
+      <div class="row row-1">
+        <div class="seat first-class booked">1</div>
+        <div class="seat">5</div>
+        <div class="seat">9</div>
+        <div class="seat">13</div>
+        <div class="seat">17</div>
+        <div class="seat">19</div>
+        <div class="seat">23</div>
+        <div class="seat">27</div>
+        <div class="seat">31</div>
+      </div>
+
+      <div class="row row-2">
+        <div class="seat first-class">2</div>
+        <div class="seat">6</div>
+        <div class="seat">10</div>
+        <div class="seat booked">14</div>
+        <div class="seat">18</div>
+        <div class="seat">20</div>
+        <div class="seat">24</div>
+        <div class="seat">28</div>
+        <div class="seat">32</div>
+      </div>
+
+      <div class="row row-3">
+        <div class="seat">33</div>
+      </div>
+
+      <div class="row row-4">
+        <div class="seat first-class">3</div>
+        <div class="seat booked">7</div>
+        <div class="seat">11</div>
+        <div class="seat booked">15</div>
+        <div class="seat aisle"></div>
+        <div class="seat">21</div>
+        <div class="seat">25</div>
+        <div class="seat">29</div>
+        <div class="seat">34</div>
+      </div>
+
+      <div class="row row-5">
+        <div class="seat first-class">4</div>
+        <div class="seat">8</div>
+        <div class="seat">12</div>
+        <div class="seat">16</div>
+        <div class="seat aisle"></div>
+        <div class="seat">22</div>
+        <div class="seat booked">26</div>
+        <div class="seat">30</div>
+        <div class="seat">35</div>
+      </div>
+
+    </div>
+
+    <div class="info">
+
+      <div class="seat-info">
+        <div>
+          <span class="seat first-class">
+          </span>
+          <p>Differently Able</p>
+        </div>
+
+        <div>
+          <span class="seat"></span>
+          <p>Economy class</p>
+        </div>
+
+        <div>
+          <span class="seat booked"></span>
+          <p>Already Booked</p>
+        </div>
+      </div>
+
+      <div class="booking-info">
+        <h3> Selected Seats (<span id="count">0</span>)</h3>
+        <h3>Total: $<span id="total">0</span></h3>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
